@@ -19,7 +19,7 @@ require 'sinatra'
 require "sinatra/reloader" if development?
 
 require 'erb'
-
+require 'omniauth-twitter'
 # Some helper constants for path-centric logic
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 
@@ -35,6 +35,10 @@ configure do
 
   # Set the views to
   set :views, File.join(Sinatra::Application.root, "app", "views")
+end
+
+use OmniAuth::Builder do
+  provider :twitter, "PuakARcPZDh9bvL8DmCVGL9wx", "rhcUhCUTz08INvPLqMgDYcfQfEsQdGTlOKtPTW6x8b0JARjoOL"
 end
 
 # Set up the controllers and helpers
