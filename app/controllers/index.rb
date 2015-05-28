@@ -33,10 +33,10 @@ end
 
 
 =begin
-api key PuakARcPZDh9bvL8DmCVGL9wx
+api key oopsiedaisy
 Access level  Read and write (modify app permissions)
-Consumer Key (API Key)  PuakARcPZDh9bvL8DmCVGL9wx (manage keys and access tokens)
-Consumer Secret (API Secret)  rhcUhCUTz08INvPLqMgDYcfQfEsQdGTlOKtPTW6x8b0JARjoOL
+Consumer Key (API Key)  accidentallyAllTheThings (manage keys and access tokens)
+Consumer Secret (API Secret)  what's this doing here?
 Callback URL  http://mewallacee.com/auth/twitter/callback
 Sign in with Twitter  Yes
 App-only authentication https://api.twitter.com/oauth2/token
