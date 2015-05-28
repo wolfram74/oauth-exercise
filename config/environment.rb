@@ -38,7 +38,7 @@ configure do
 end
 
 use OmniAuth::Builder do
-  provider :twitter, "PuakARcPZDh9bvL8DmCVGL9wx", "rhcUhCUTz08INvPLqMgDYcfQfEsQdGTlOKtPTW6x8b0JARjoOL"
+  provider :twitter, "hahahaha", "lolno"
 end
 
 # Set up the controllers and helpers
